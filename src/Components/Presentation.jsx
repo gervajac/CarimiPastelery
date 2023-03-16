@@ -4,12 +4,12 @@ export default function Presentation() {
 
 return (
 
-    <section id="presentation" className="bg-indigo-50 dark:bg-gray-900 m-0">
+    <section id="presentation" className="bg-indigo-50 m-0">
                 <div className="container px-6 py-10 mx-auto">
                     <div className="lg:flex lg:items-center">
                         <div className="w-full space-y-12 lg:w-1/2 ">
                             <div>
-                                <h1 className="text-3xl font-bold text-gray-800 capitalize lg:text-4xl dark:text-white">Sobre mí</h1>
+                                <h1 className="text-3xl font-bold text-gray-800 capitalize lg:text-4x">Sobre mí</h1>
                             
                                 <div className="mt-2">
                                     <span className="inline-block w-40 h-1 rounded-full bg-orange-100"></span>
