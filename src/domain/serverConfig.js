@@ -1,0 +1,1 @@
+export const SERVER_URL = 'https://fine-cyan-catfish-hat.cyclic.app/api/';
