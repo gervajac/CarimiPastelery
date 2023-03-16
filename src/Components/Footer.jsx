@@ -2,9 +2,9 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <footer id="footer" className="text-center bg-orange-100 text-gray-700">
-      <div className="container flex items-center justify-center p-6">
-        <div className="text-center pl-96">
+    <footer id="footer" className="flex items-center justify-center bg-orange-100 text-gray-700">
+      <div className=" p-6">
+        <div className="text-center">
           <a
             href="https://www.facebook.com/carimi.farall"
             type="button"

@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect} from "react";
 import Card from "./Card";
 import {getPastels} from "../Redux/actions";
 import { useDispatch, useSelector } from "react-redux";
@@ -18,8 +18,6 @@ export default function CardSection() {
         dispatch(getPastels())
     }, [dispatch])
 
-    console.log(pastels,"pasteles")
-
 
     if (pastels.length > 1) {  
   return (
@@ -33,7 +31,7 @@ export default function CardSection() {
                             <span className="inline-block w-1 h-1 ml-1 rounded-full bg-orange-100"></span>
                       </div>
                  </div>
-    <div className="flex w- p-0 justify-between pl-20 flex-wrap bg-indigo-50">
+    <div className="flex w- p-3 justify-between flex-wrap bg-indigo-50">
      {pastels.map((e) => {
       return (
         <Card
