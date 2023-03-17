@@ -23,7 +23,7 @@ export default function CardSection() {
   return (
             <div id="pasteles" className="bg-indigo-50">
                 <div className="container px-6 py-10 mx-auto">
-                  <h1 className="text-3xl font-bold text-gray-800 capitalize lg:text-4xl dark:text-white">Pasteles</h1>
+                  <h1 className="text-3xl font-extrabold text-gray-800 capitalize lg:text-4xl">Pasteles</h1>
                             
                       <div className="mt-2">
                              <span className="inline-block w-40 h-1 rounded-full bg-orange-100"></span>

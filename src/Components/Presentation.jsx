@@ -9,7 +9,7 @@ return (
                     <div className="lg:flex lg:items-center">
                         <div className="w-full space-y-12 lg:w-1/2 ">
                             <div>
-                                <h1 className="text-3xl font-bold text-gray-800 capitalize lg:text-4x">Sobre mí</h1>
+                                <h1 className="text-3xl font-extrabold text-gray-800 capitalize lg:text-4x">Sobre mí</h1>
                             
                                 <div className="mt-2">
                                     <span className="inline-block w-40 h-1 rounded-full bg-orange-100"></span>
@@ -26,9 +26,9 @@ return (
                                 </span>
     
                                 <div className="mt-4 md:mx-4 md:mt-0">
-                                    <h1 className="text-2xl font-semibold text-gray-700 capitalize dark:text-white">Mi comienzo</h1>
+                                    <h1 className="text-2xl font-semibold text-gray-700 capitalize">Mi comienzo</h1>
     
-                                    <p className="mt-3 text-gray-500 dark:text-gray-300">
+                                    <p className="mt-3 text-gray-500">
                                         Mi nombre es Carimi, desde temprana edad tuve una pasión muy fuerte por el mundo de la pasteleria y a mis 20 años decidí comenzar este emprendimiento. Hoy ya con 22 años y más experiencia
                                         puedo brindarle a mis clientes productos de calidad. 
 
@@ -37,30 +37,30 @@ return (
                             </div>
     
                             <div className="md:flex md:items-start md:-mx-4">
-                                <span className="inline-block p-2 text-gray-700 bg-orange-100 rounded-xl md:mx-4 dark:text-white dark:bg-orange-100">
+                                <span className="inline-block p-2 text-gray-700 bg-orange-100 rounded-xl md:mx-4 dark:bg-orange-100">
                                     <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M7.03587629,17.2664036 L2.54094808,14.2345363 C1.62521847,13.6168689 1.38359132,12.373805 2.00125875,11.4580753 C2.61892617,10.5423457 3.86199008,10.3007186 4.7777197,10.918386 L7,12.417333 L7,8 C7,4.6862915 9.6862915,2 13,2 C16.3137085,2 19,4.6862915 19,8 L19,17 C19,17.5522847 18.5522847,18 18,18 L8,18 C7.53996718,18 7.15248755,17.6893628 7.03587629,17.2664036 Z" />
                                     </svg>
                                 </span>
     
                                 <div className="mt-4 md:mx-4 md:mt-0">
-                                    <h1 className="text-2xl font-semibold text-gray-700 capitalize dark:text-white">Estudios</h1>
+                                    <h1 className="text-2xl font-semibold text-gray-700 capitalize">Estudios</h1>
     
-                                    <p className="mt-3 text-gray-500 dark:text-gray-300">
+                                    <p className="mt-3 text-gray-500">
                                         Actualmente estoy recibida en Pasteleria Profesional, título otorgado por IGA (Instituto Gastronómico de Argentina).
                                     </p>
                                 </div>
                             </div>
     
                             <div className="md:flex md:items-start md:-mx-4">
-                                <span className="inline-block p-2 text-gray-700 bg-orange-100 rounded-xl md:mx-4 dark:text-white dark:bg-orange-100">
+                                <span className="inline-block p-2 text-gray-700 bg-orange-100 rounded-xl md:mx-4  dark:bg-orange-100">
                                     <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01" />
                                     </svg>
                                 </span>
     
                                 <div className="mt-4 md:mx-4 md:mt-0">
-                                    <h1 className="text-2xl font-semibold text-gray-700 capitalize dark:text-white">Pedidos</h1>
+                                    <h1 className="text-2xl font-semibold text-gray-700 capitalize">Pedidos</h1>
     
                                     <p className="mt-3 text-gray-500 dark:text-gray-300">
                                         Tomo pedidos con un día mínimo de anticipación, hago envíos (incluye Crespo).
