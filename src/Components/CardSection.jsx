@@ -35,6 +35,7 @@ export default function CardSection() {
      {pastels.map((e) => {
       return (
         <Card
+          key={e.id}
           pastelid={e.id}
           name={e.name}
           price={e.price}
@@ -52,9 +53,9 @@ export default function CardSection() {
   </div>
   )
   } else {
-    return <div class="flex justify-center items-center h-screen bg-indigo-50">
-    <div class="relative w-24 h-24 animate-spin rounded-full bg-gradient-to-r from-orange-300 via-orange-200 to-orange-100 ">
-        <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-20 h-20 bg-indigo-50 rounded-full border-2 border-white"></div>
+    return <div className="flex justify-center items-center h-screen bg-indigo-50">
+    <div className="relative w-24 h-24 animate-spin rounded-full bg-gradient-to-r from-orange-300 via-orange-200 to-orange-100 ">
+        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-20 h-20 bg-indigo-50 rounded-full border-2 border-white"></div>
     </div>
 </div>
   }
