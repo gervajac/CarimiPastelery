@@ -19,7 +19,7 @@ return (
                             </div>
     
                             <div className="md:flex md:items-start md:-mx-4">
-                                <span className="inline-block p-2 text-gray-700 bg-orange-100 rounded-xl md:mx-4 dark:text-white dark:bg-orange-100">
+                                <span className="inline-block p-2 text-gray-700 bg-orange-100 rounded-xl md:mx-4">
                                     <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5,12.8739825 C3.27477279,12.4299397 2,10.8638394 2,9 C2,6.790861 3.790861,5 6,5 C6.11332888,5 6.22555698,5.00471299 6.33649899,5.01395368 C7.15621908,2.67628292 9.38235111,1 12,1 C14.6176489,1 16.8437809,2.67628292 17.663501,5.01395368 C17.774443,5.00471299 17.8866711,5 18,5 C20.209139,5 22,6.790861 22,9 C22,10.8638394 20.7252272,12.4299397 19,12.8739825 L19,17 C19,17.5522847 18.5522847,18 18,18 L6,18 C5.44771525,18 5,17.5522847 5,17 L5,12.8739825 Z" />
                                     </svg>
@@ -62,7 +62,7 @@ return (
                                 <div className="mt-4 md:mx-4 md:mt-0">
                                     <h1 className="text-2xl font-semibold text-gray-700 capitalize">Pedidos</h1>
     
-                                    <p className="mt-3 text-gray-500 dark:text-gray-300">
+                                    <p className="mt-3 text-gray-500">
                                         Tomo pedidos con un día mínimo de anticipación, hago envíos (incluye Crespo).
                                     </p>
                                 </div>
