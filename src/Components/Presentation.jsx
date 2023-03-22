@@ -4,7 +4,7 @@ export default function Presentation() {
 
 return (
 
-    <section id="presentation" className="bg-indigo-50 m-0">
+    <section id="presentation" className="bg-indigo-50 m-0 ">
                 <div className="container px-6 py-10 mx-auto">
                     <div className="lg:flex lg:items-center">
                         <div className="w-full space-y-12 lg:w-1/2 ">
